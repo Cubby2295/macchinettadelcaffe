@@ -1,0 +1,26 @@
+p {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #1b1a3d;
+}
+
+body {
+	background-color: #b0c4de;
+}
+
+div{
+	position:absolute; 
+	top: 250px;
+	left: 450px;
+	background-color: #b0c4de;
+	padding: 30px;
+	
+}
+
+h2{
+	text-align: center;
+	font-size: 30px;
+}
+
+footer{
+	text-align:center;
+}

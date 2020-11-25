@@ -12,7 +12,8 @@ function gestoreCaffeInserito(){
 function gestoreCaffeDaErogare(){
 	try{
 		if (parseInt(nodoCaffeDaErogare.value) <= parseInt(nodoSaldoCialde.value)){
-			nodoSaldoCialde.value -= nodoCaffeDaErogare.value;
+			nodoSaldoCialde.value -=  parseInt(nodoCaffeDaErogare.value);
+			SaldoCialde = parseInt(nodoSaldoCialde.value);
 			
 			if ([nodoCodice.value] in ListaCodici == false){
 				ListaCodici [nodoCodice.value] = parseInt(nodoCaffeDaErogare.value);
